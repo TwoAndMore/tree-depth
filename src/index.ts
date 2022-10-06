@@ -9,7 +9,7 @@ export function treeDepth<T = any>(root: TreeNode<T> | null): number {
     return 0;
   }
 
-  let leftSide = 0
+  let leftSide = 0;
   let rightSide = 0;
 
   if (root.left) {
